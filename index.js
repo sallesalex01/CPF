@@ -1,4 +1,4 @@
-const receita = require('modules/receita');
+const receita = require('./modules/receita');
 
 // Funcao princial
 async function main()
@@ -11,6 +11,7 @@ async function main()
 
 
     // Validação na receita aqui
+    const result = await receita(cpf);
 }
 
 
